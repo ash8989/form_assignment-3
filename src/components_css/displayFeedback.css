@@ -1,0 +1,37 @@
+.displayFeedback {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 1200px;
+  max-width: 80%;
+  margin: 40px auto;
+  border: 2px solid #000000;
+  background-color: #66ccff;
+  row-gap: 10px;
+}
+
+.mainContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.goBackBtn{
+  margin-top: 30px;
+  border: 2px solid black;
+  border-radius: 20px;
+  background-color: rgb(61, 201, 201);
+  font-size: 25px;
+  height: 40px;
+  width: 300px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 550px) {
+  .displayFeedback {
+    flex-flow: column nowrap;
+  }
+}

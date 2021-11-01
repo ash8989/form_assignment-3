@@ -1,0 +1,48 @@
+.header{
+    text-align: center;
+}
+
+.formClass{
+    text-align: center;
+    font-size: 20px;
+}
+.nameInput{
+    height: 25px;
+    width: 300px;
+    border: 0px white;
+    border-radius: 15px;
+    background-color: aqua;
+}
+.departmentInput{
+    height: 25px;
+    width: 300px;
+    border: 0px white;
+    border-radius: 15px;
+    background-color: aqua;
+}
+.ratingInput{
+    height: 25px;
+    width: 300px;
+    border: 0px white;
+    border-radius: 15px;
+    background-color: aqua;
+}
+.div1{
+    margin-top: 20px;
+}
+.div2{
+    margin-top: 20px;
+}
+.div3{
+    margin-top: 20px;
+}
+.submitBtn{
+    margin-top: 30px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: rgb(61, 201, 201);
+    font-size: 25px;
+    height: 40px;
+    width: 300px;
+    cursor: pointer;
+}
